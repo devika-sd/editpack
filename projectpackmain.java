@@ -1,5 +1,6 @@
 package promain;
 import biopack.*;
+import eeepack.*;
 import java.util.*;
 class projectpackmain
 {
@@ -56,6 +57,48 @@ case 1:
 	System.out.println("do you want to calculate cgpa");
 	String y=s.next();
 	if(y.equals("yes"))
+	{
+		p.cgpa(gpa[n-1],n);
+	}
+case 2: 
+	switch(n)
+	{
+	case 1: 
+		gpa[0]=eee.sem1();
+		System.out.println("The current GPA is"+gpa[0]);
+		break;
+	case 2:
+		gpa[1]=eee.sem2();
+		System.out.println("The current GPA is"+gpa[1]);
+		break;
+	case 3:
+		gpa[2]=eee.sem3();
+		System.out.println("The current GPA is"+gpa[2]);
+		break;
+	case 4:
+		gpa[3]=eee.sem4();
+		System.out.println("The current GPA is"+gpa[3]);
+		break;
+	case 5:
+		gpa[4]=eee.sem5();
+		System.out.println("The current GPA is"+gpa[4]);
+		break;
+	case 6:
+		gpa[5]=eee.sem6();
+		System.out.println("The current GPA is"+gpa[5]);
+		break;
+	case 7:
+		gpa[6]=eee.sem7();
+		System.out.println("The current GPA is"+gpa[6]);
+		break;
+	case 8:
+		gpa[7]=eee.sem8();
+		System.out.println("The current GPA is"+gpa[7]);
+		break;
+	}
+	System.out.println("do you want to calculate cgpa");
+	String x=s.next();
+	if(x.equals("yes"))
 	{
 		p.cgpa(gpa[n-1],n);
 	}

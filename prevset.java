@@ -1,0 +1,270 @@
+package deptpack;
+import prograde.*; 
+import java.util.*;
+public class dept
+{
+static Scanner s=new Scanner(System.in);
+public static double sem1()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("1st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem2()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("2st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem3()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("3st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem4()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("4st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem5()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("5st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem6()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("6st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem7()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("7st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
+public static double sem8()
+{
+double gpa;
+String G1,G2,G3,G4,G5,G6,G7,G8,G9;
+int g1,g2,g3,g4,g5,g6,g7,g8,g9;
+System.out.println("8st sem grade");
+System.out.println("");
+G1=s.next();
+g1=gradepro.grade(G1);
+System.out.println("");
+G2=s.next();
+g2=gradepro.grade(G2);
+System.out.println("");
+G3=s.next();
+g3=gradepro.grade(G3);
+System.out.println("");
+G4=s.next();
+g4=gradepro.grade(G4);
+System.out.println("");
+G5=s.next();
+g5=gradepro.grade(G5);
+System.out.println("");
+G6=s.next();
+g6=gradepro.grade(G6);
+System.out.println("");
+G7=s.next();
+g7=gradepro.grade(G7);
+System.out.println("");
+G8=s.next();
+g8=gradepro.grade(G8);
+gpa=(g1*+g2*+g3*+g4*+g5*+g6*+g7*+g8*)/;
+return gpa;
+}
