@@ -5,11 +5,11 @@ class projectpackmain
 {
 static double ini,frst2,secd1,secd2,trid1,trid2,fin1,fin2,cgpa,prev;
 static double gpa[]=new double[8];
+static Scanner s=new Scanner(System.in);
 public static void main(String args[])
 {
 projectpackmain p=new projectpackmain();
 biotech bio=new biotech();
-Scanner s=new Scanner(System.in);
 System.out.println("enter the department");
 System.out.println("1.biotech"+"\n"+"2.EEE");
 int c=s.nextInt();
@@ -21,7 +21,7 @@ case 1:
 	switch(n)
 	{
 	case 1: 
-		gpa[0]=bio.sem1();
+		gpa[0]=biotech.sem1();
 		System.out.println("The current GPA is"+gpa[0]);
 		break;
 	case 2:
@@ -64,14 +64,14 @@ case 1:
 public void cgpa(double gpa1,int t)
 {
 biotech bio=new biotech();
-Scanner sc=new Scanner(System.in);
+//Scanner sc=new Scanner(System.in);
 String no;
 System.out.println("do you know the previous cgpa");
-no=sc.next();
+no=s.next();
 	if(no.equals("yes"))
 	{
 		System.out.println("enter the previous cgpa");
-		prev=sc.nextDouble();
+		prev=s.nextDouble();
 		cgpa=(gpa1+prev)/2;
 		System.out.println("CGPA is"+cgpa);
 	}
