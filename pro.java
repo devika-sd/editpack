@@ -1,16 +1,15 @@
 package promain;
 import biopack.*;
-import eeepack.*;
 import java.util.*;
-class projectpackmain
+class pro
 {
 static double ini,frst2,secd1,secd2,trid1,trid2,fin1,fin2,cgpa,prev;
 static double gpa[]=new double[8];
-static Scanner s=new Scanner(System.in);
 public static void main(String args[])
 {
 projectpackmain p=new projectpackmain();
 biotech bio=new biotech();
+Scanner s=new Scanner(System.in);
 System.out.println("enter the department");
 System.out.println("1.biotech"+"\n"+"2.EEE");
 int c=s.nextInt();
@@ -22,7 +21,7 @@ case 1:
 	switch(n)
 	{
 	case 1: 
-		gpa[0]=biotech.sem1();
+		gpa[0]=bio.sem1();
 		System.out.println("The current GPA is"+gpa[0]);
 		break;
 	case 2:
@@ -60,63 +59,19 @@ case 1:
 	{
 		p.cgpa(gpa[n-1],n);
 	}
-	break;
-case 2: 
-	switch(n)
-	{
-	case 1: 
-		gpa[0]=eee.sem1();
-		System.out.println("The current GPA is"+gpa[0]);
-		break;
-	case 2:
-		gpa[1]=eee.sem2();
-		System.out.println("The current GPA is"+gpa[1]);
-		break;
-	case 3:
-		gpa[2]=eee.sem3();
-		System.out.println("The current GPA is"+gpa[2]);
-		break;
-	case 4:
-		gpa[3]=eee.sem4();
-		System.out.println("The current GPA is"+gpa[3]);
-		break;
-	case 5:
-		gpa[4]=eee.sem5();
-		System.out.println("The current GPA is"+gpa[4]);
-		break;
-	case 6:
-		gpa[5]=eee.sem6();
-		System.out.println("The current GPA is"+gpa[5]);
-		break;
-	case 7:
-		gpa[6]=eee.sem7();
-		System.out.println("The current GPA is"+gpa[6]);
-		break;
-	case 8:
-		gpa[7]=eee.sem8();
-		System.out.println("The current GPA is"+gpa[7]);
-		break;
-	}
-	System.out.println("do you want to calculate cgpa");
-	String x=s.next();
-	if(x.equals("yes"))
-	{
-		p.cgpa(gpa[n-1],n);
-	}
-	break;
 }
 }
 public void cgpa(double gpa1,int t)
 {
 biotech bio=new biotech();
-//Scanner sc=new Scanner(System.in);
+Scanner sc=new Scanner(System.in);
 String no;
 System.out.println("do you know the previous cgpa");
-no=s.next();
+no=sc.next();
 	if(no.equals("yes"))
 	{
 		System.out.println("enter the previous cgpa");
-		prev=s.nextDouble();
+		prev=sc.nextDouble();
 		cgpa=(gpa1+prev)/2;
 		System.out.println("CGPA is"+cgpa);
 	}

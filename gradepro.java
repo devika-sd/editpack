@@ -7,27 +7,27 @@ public static int grade(String g)
 String A="a+",B="b+",C="ra";
 String O="o",a="a",b="b";
 int t=0;
-	if(g.equals(O))
+	if(g.equalsIgnoreCase(O))
 	{
 		t=10;
 	}
-	if(g.equals(A))
+	if(g.equalsIgnoreCase(A))
 	{
 		t=9;
 	}
-	if(g.equals(a))
+	if(g.equalsIgnoreCase(a))
 	{
 		t=8;
 	}
-	if(g.equals(B))
+	if(g.equalsIgnoreCase(B))
 	{
 		t=7;
 	}
-	if(g.equals(b))
+	if(g.equalsIgnoreCase(b))
 	{
 		t=6;
 	}
-	if(g.equals(C))
+	if(g.equalsIgnoreCase(C))
 	{
 		t=0;
 	}
