@@ -58,7 +58,7 @@ case 1:
 	String y=s.next();
 	if(y.equals("yes"))
 	{
-		p.cgpa(gpa[n-1],n);
+		p.cgpa(gpa[n-1],n,c);
 	}
 	break;
 case 2: 
@@ -101,14 +101,15 @@ case 2:
 	String x=s.next();
 	if(x.equals("yes"))
 	{
-		p.cgpa(gpa[n-1],n);
+		p.cgpa(gpa[n-1],n,c);
 	}
 	break;
 }
 }
-public void cgpa(double gpa1,int t)
+public void cgpa(double gpa1,int t,int c)
 {
 biotech bio=new biotech();
+eee eee=new eee();
 //Scanner sc=new Scanner(System.in);
 String no;
 System.out.println("do you know the previous cgpa");
@@ -122,6 +123,9 @@ no=s.next();
 	}
 	else
 	{
+	switch(c)
+	{
+	case 1:
 	switch(t)
 	{
 	case 1: cal();
@@ -184,8 +188,73 @@ no=s.next();
 		System.out.println("CGPA is"+fin2);
 		break;
 	}
-
+	break;
+	case 2:
+	switch(t)
+	{
+	case 1: cal();
+		System.out.println("CGPA is"+ini);
+		break;
+	case 2: 
+		gpa[0]=eee.sem1();
+		cal();
+		System.out.println("CGPA is"+frst2);
+		break;
+	case 3: 
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		cal();
+		System.out.println("CGPA is"+secd1);
+		break;
+	case 4: 
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		gpa[2]=eee.sem3();
+		cal();
+		System.out.println("CGPA is"+secd2);
+		break;
+	case 5: 
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		gpa[2]=eee.sem3();
+		gpa[3]=eee.sem4();
+		cal();
+		System.out.println("CGPA is"+trid1);
+		break;
+	case 6: 
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		gpa[2]=eee.sem3();
+		gpa[3]=eee.sem4();
+		gpa[4]=eee.sem5();
+		cal();
+		System.out.println("CGPA is"+trid2);
+		break;
+	case 7: 
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		gpa[2]=eee.sem3();
+		gpa[3]=eee.sem4();
+		gpa[4]=eee.sem5();
+		gpa[5]=eee.sem6();
+		cal();
+		System.out.println("CGPA is"+fin1);
+		break;
+	case 8:
+		gpa[0]=eee.sem1();
+		gpa[1]=eee.sem2();
+		gpa[2]=eee.sem3();
+		gpa[3]=eee.sem4();
+		gpa[4]=eee.sem5();
+		gpa[5]=eee.sem6();
+		gpa[6]=eee.sem7();
+		cal();
+		System.out.println("CGPA is"+fin2);
+		break;
 	}
+	break;
+	}
+}
 }
 public void cal()
 {
